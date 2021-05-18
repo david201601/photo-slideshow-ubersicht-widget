@@ -3,7 +3,7 @@
 This Übersicht widget is a configurable photo slide show widget which shows random images periodically from a folder.
 
 ## How to install widget
-[Download]()
+[Download](https://github.com/david201601/photo-slideshow-ubersicht-widget/releases/tag/v0.1-beta)
 
 Just copy the the plugin's folder to the widget folder on your machine.  
 See the [widget overview of Übersicht](http://tracesof.net/uebersicht-widgets/) for more information.
