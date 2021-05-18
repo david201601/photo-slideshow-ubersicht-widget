@@ -1,4 +1,4 @@
-# Photo slideshow widget for Übersicht
+# Photo slide show widget for Übersicht
 
 This Übersicht widget is a configurable photo slide show widget which shows random images periodically from a folder.
 
