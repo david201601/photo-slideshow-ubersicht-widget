@@ -6,7 +6,7 @@ import { run } from 'uebersicht'
 // ***************** OPTION ******************
 export const absolutPath = "''" // e.g. "'/Users/MyProfile/Photos'"
 export const fromTopPercentage = 50
-export const fromRightPercentage = 1
+export const fromLeftPercentage = 1
 export const durationMs = 10 * 1000 // duration with miliseconds
 export const width = 350
 export const height = 200
@@ -22,7 +22,7 @@ export const refreshFrequency = durationMs;
 // https://emotion.sh/
 export const className =`
   top: ${fromTopPercentage}%;
-  left: ${fromRightPercentage}%;
+  left: ${fromLeftPercentage}%;
   width: ${width}px;
   height: ${height}px;
   background-color: rgba(0, 0, 0, 0.4);
