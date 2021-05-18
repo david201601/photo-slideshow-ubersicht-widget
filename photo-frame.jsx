@@ -3,11 +3,8 @@
 // https://github.com/felixhageloh/uebersicht
 import { run } from 'uebersicht'
 
-// You can modify this widget as you see fit, or simply delete this file to
-// remove it.
-
-// this is the shell command that gets executed every time this widget refreshes
-export const absolutPath = "'/Users/davidseikyee/Documents/Photos'"
+// ***************** OPTION ******************
+export const absolutPath = "''" // e.g. "'/Users/MyProfile/Photos'"
 export const fromTopPercentage = 50
 export const fromRightPercentage = 1
 export const durationMs = 10 * 1000 // duration with miliseconds
@@ -16,6 +13,7 @@ export const height = 200
 export const corners = 15
 export const border = 0
 export const shadow = .2
+// ***************** OPTION ******************
 
 // the refresh frequency in milliseconds
 export const refreshFrequency = durationMs;
@@ -81,6 +79,7 @@ export const updateState = (event, previousState) => {
   }
 }
 
+// this is the shell command that gets executed every time this widget refreshes
 export const command = (dispatch) => {
   run("cd " + absolutPath + " && ls").then((result) => {
   dispatch({ type: 'GET_IMAGE_LIST', imageList: result.trim().split("\n"), index: 0 })
