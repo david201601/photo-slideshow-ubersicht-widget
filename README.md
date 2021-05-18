@@ -12,4 +12,7 @@ See the [widget overview of Übersicht](http://tracesof.net/uebersicht-widgets/)
 ![Screenshot](/Screenshot_1.png)
 
 ## Configuration
+
+Should be some what self-explanatory 
+
 ![Options](/Screenshot_options.png)
