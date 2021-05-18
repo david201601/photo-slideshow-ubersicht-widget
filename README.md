@@ -1,4 +1,4 @@
-# Gmail widget for Übersicht
+# Photo slideshow widget for Übersicht
 
 This Übersicht widget is a configurable photo slide show widget which shows random images periodically from a folder.
 
